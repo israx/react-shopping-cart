@@ -1,0 +1,28 @@
+.image-container {
+  position: relative;
+}
+
+.favorite,
+.cart {
+  position: absolute;
+  font-size: 1.6rem;
+  color: goldenrod;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+
+.ri-heart-fill {
+  color: red;
+}
+.favorite {
+  left: 5px;
+  top: 5px;
+}
+.cart {
+  right: 5px;
+  top: 5px;
+}
+.favorite:hover,
+.cart:hover {
+  color: red;
+}

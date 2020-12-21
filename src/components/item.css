@@ -1,0 +1,19 @@
+.cart-item {
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cart-item img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 70%;
+  object-fit: cover;
+}
+
+.ri-delete-bin-line,
+.ri-delete-bin-fill {
+  font-size: 1.5rem;
+}

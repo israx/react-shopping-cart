@@ -1,0 +1,20 @@
+.items-container {
+  padding: 2rem;
+  display: grid;
+  justify-content: center;
+}
+.check-out {
+  width: 100px;
+  justify-self: center;
+  padding: 0.2rem;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.check-out:hover {
+  background: #551a8b;
+  color: white;
+}
